@@ -1,34 +1,8 @@
-# Darcli
+# robots.txt
 
-## Demo
+My cybersecurity blog. An effort to document my learning journey, projects and thoughts.
 
-You can see this theme on [gjuniioor.github.io/darcli](https://gjuniioor.github.io/darcli)
+Namaste, welcome to my blog robots.txt! I started this blog in an effort to document my cybersecurity projects and all the things I learn in this field. It’s currently 1:32 am as I’m making this blog on a sleepless Sunday morning—or Saturday night, whatever you want to call it, I guess. To you as a $user, I would like to say that I hope you find my posts both informative and entertaining.
 
-## Screenshot
-
-![Screenshot of the them](assets/img/screenshot.png)
-
-## Why the name?
-
-It's just a joke: `dark + cli`.
-
-## Features
-
-* Categories
-* Disqus comments
-* SEO
-	* Description
-	* Keywords
-	* Open Cards to twitter, facebook, linkedin, google+ and others
-* Code post (but no highligth :] )
-* Atom **AND** RSS feeds
-
-## Warnings
-
-This is a theme intended to use to [lampiaosec website](https://lampiaosec.github.io) and after was converted to a general theme to jekyll.
-
-So, any questions, can you contact me ([@gjuniioor](https://github.com/gjuniioor)) or open a [issue](https://github.com/gjuniioor/darcli/issuesi).
-
-## License
-
-This theme is under [GPL3](assets/LICENSE).
+Whether you’re a newbie just dipping your toes into the vast ocean of cybersecurity or a seasoned pro looking to sharpen your skills, this blog is for you. My goal is to share knowledge, tips, and tricks that will be useful to everyone, from beginners to experts. So, grab a cup of coffee (or tea, if that’s your thing), get comfy, and let’s explore the fascinating world of cybersecurity together.
+Happy hacking!
