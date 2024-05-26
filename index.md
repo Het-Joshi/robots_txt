@@ -62,9 +62,7 @@ I think that all about this theme is intuitive, but if you want help, please, co
 <ul>
 {% for post in site.categories.posts %}
 
-{% if post.en %}
-<li>{{ post.title }} :: <a href="{{ post.url }}" title="{{ post.description }}">en</a>
-{% endif %}
+<li>{{ post.title }} :: <a href="/robots_txt/{{ post.url }}" title="{{ post.description }}">en</a>
 
 {% endfor %}
 </ul>
