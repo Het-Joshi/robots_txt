@@ -1,16 +1,15 @@
 # Site specific settings
-title: "Title to this website"
-name: "Website name"
+title: "robots.txt"
+name: "robots.txt"
 keywords: "Key, words, about, this, website"
-baseurl: "/darcli"
-url: "http://website.com"
-description: "Website description"
+baseurl: "/"
+url: "https://het-joshi.github.io/robots_txt/"
+description: "My cybersecurity blog. An effort to document my learning journey, projects and thoughts."
 cover: "/assets/img/cover.svg"
 fanpage_id: ""
 
 # Site general settings
 lang: "en"
-lang_alternate: "pt_BR"
 ssl: false # It will redirect to https
 
 # Media
