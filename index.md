@@ -5,9 +5,9 @@ layout: default
 # $ cat about.txt
 {:id="about"}
 
-This is a theme intended to use to [lampiaosec](https://lampiaosec.github.io). So, it's our taste, but because we like free culture, it's free to.
-
-The categories to post was to support us, but you can change as you need.
+Namaste, welcome to my blog **robots.txt**! I started this blog in an effort to document my cybersecurity projects and all the things I learn in this field. Whether you're a newbie just dipping your toes into the vast ocean of cybersecurity or a seasoned pro looking to sharpen your skills, this blog is for you. My goal is to share knowledge, tips, and tricks that will be useful to everyone, from beginners to experts. So, grab a cup of coffee (or tea, if that's your thing), get comfy, and let's explore the fascinating world of cybersecurity together.
+<br>
+**Happy hacking!**
 
 # $ cat contact.txt
 {:id="contact"}
@@ -20,11 +20,11 @@ I think that all about this theme is intuitive, but if you want help, please, co
 <ul>
 {% for member in site.categories.team reversed %}
 <li id="{{ member.title }}">{{ member.title }}
-<ul>
-<li>{{ member.mail }}</li>
-<li><a href="https://github.com/{{ member.github }}">https://github.com/{{ member.github }}</a></li>
-<li><a href="{{ member.site }}">{{ member.site }}</a></li>
-</ul>
+  <ul>
+    <li>{{ member.mail }}</li>
+    <li><a href="https://github.com/{{ member.github }}">https://github.com/{{ member.github }}</a></li>
+    <li><a href="{{ member.site }}">{{ member.site }}</a></li>
+  </ul>
 </li>
 {% endfor %}
 </ul>
@@ -61,9 +61,7 @@ I think that all about this theme is intuitive, but if you want help, please, co
 
 <ul>
 {% for post in site.categories.posts %}
-
-<li>{{ post.title }} :: <a href="/robots_txt/{{ post.url }}" title="{{ post.description }}">en</a>
-
+  <li>{{ post.title }} :: <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.description }}">en</a></li>
 {% endfor %}
 </ul>
 
@@ -72,10 +70,6 @@ I think that all about this theme is intuitive, but if you want help, please, co
 
 <ul>
 {% for post in site.categories.articles %}
-
-{% if post.en %}
-<li>{{ post.title }} :: <a href="{{ post.url }}" title="{{ post.description }}">en</a> :: <a href="{{ post.pt }}" title="{{ post.description_pt }}">pt_br</a></li>
-{% endif %}
-
+  <li>{{ post.title }} :: <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.description }}">en</a></li>
 {% endfor %}
 </ul>
