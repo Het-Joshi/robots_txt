@@ -12,8 +12,13 @@ Namaste, welcome to my blog **robots.txt**! I started this blog in an effort to 
 # $ cat contact.txt
 {:id="contact"}
 
-I think that all about this theme is intuitive, but if you want help, please, contact me: [gjuniioor](https://github.com/gjuniioor).
+If you have any questions, suggestions, or just want to say hello, feel free to reach out to me! I'm always excited to connect with fellow cybersecurity enthusiasts, share knowledge, and collaborate on projects. You can contact me via the following channels:
 
+- **Email**: [het.matrix@gmail.com](mailto:het.matrix@gmail.com)
+- **GitHub**: [github.com/het-joshi](https://github.com/het-joshi)
+- **LinkedIn**: [Het-Joshi](https://www.linkedin.com/in/hetjoshi/)
+
+Whether you have feedback on my posts, want to discuss a cybersecurity topic, or need help with something, don't hesitate to get in touch. Let's make the cybersecurity community stronger together!
 
 
 # $ cat posts.txt
