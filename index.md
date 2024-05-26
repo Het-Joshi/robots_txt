@@ -26,7 +26,12 @@ Whether you have feedback on my posts, want to discuss a cybersecurity topic, or
 
 <ul>
 {% for post in site.categories.posts %}
-  <li>{{ post.title }} :: <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.description }}">en</a></li>
+  <li>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+    <p>{{ post.excerpt }}</p>
+    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.description }}">Read more</a>
+  </li>
 {% endfor %}
 </ul>
 
