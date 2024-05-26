@@ -179,6 +179,8 @@ footer {
   border-color: rgba(0, 255, 127, 0.7); /* Change border color on focus */
 }
 .blinking-cursor {
+    vertical-align: middle; /* Align the cursor vertically with the text */
+    /* Remaining styles remain unchanged */
     display: inline-block;
     width: 0.5em; /* Adjust the width of the cursor */
     height: 1em; /* Adjust the height of the cursor */
@@ -186,6 +188,7 @@ footer {
     animation: blink 0.8s infinite; /* Adjust blink animation duration */
     margin-left: 0.1em; /* Adjust spacing between cursor and text */
 }
+
 
 @keyframes blink {
     0%, 100% { opacity: 1; } /* Cursor visible */
