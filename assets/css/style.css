@@ -180,15 +180,13 @@ footer {
 }
 .blinking-cursor {
     vertical-align: middle; /* Align the cursor vertically with the text */
-    /* Remaining styles remain unchanged */
     display: inline-block;
     width: 0.5em; /* Adjust the width of the cursor */
     height: 1em; /* Adjust the height of the cursor */
     background-color: #2A6EA4; /* Adjust cursor color to match theme */
-    animation: blink 0.8s infinite; /* Adjust blink animation duration */
+    animation: blink 2s infinite alternate; /* Adjust blink animation duration and direction */
     margin-left: 0.1em; /* Adjust spacing between cursor and text */
 }
-
 
 @keyframes blink {
     0%, 100% { opacity: 1; } /* Cursor visible */
