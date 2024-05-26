@@ -20,12 +20,10 @@ If you have any questions, suggestions, or just want to say hello, feel free to 
 
 Whether you have feedback on my posts, want to discuss a cybersecurity topic, or need help with something, don't hesitate to get in touch. Let's make the cybersecurity community stronger together!
 
-
-# $ cat posts.txt
-{:id="posts"}
+# $ cat latest-posts.txt
 
 <ul>
-{% for post in site.categories.posts %}
+{% for post in site.categories.posts limit:4 %}
   <li>
     <h2>{{ post.title }}</h2>
     <p>{{ post.description }}</p>
@@ -34,6 +32,8 @@ Whether you have feedback on my posts, want to discuss a cybersecurity topic, or
   </li>
 {% endfor %}
 </ul>
+
+<a href="{{ site.baseurl }}/library">View All Posts</a>
 
 
 
