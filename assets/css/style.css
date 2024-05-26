@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+html {
+	background-image: url("../img/background.gif");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0.97);
+	color: rgba(0, 255, 127, 0.9); /* Muted green */
+	padding: 20px;
+	margin: auto;
+	width: 80%;
+	border: 1px dashed rgba(0, 255, 127, 0.7); /* Muted green */
+	font-family: 'Source Code Pro', 'Courier New', monospace; /* Updated font family */
+	font-size: 18px; /* Larger font size for better readability */
+	line-height: 1.6; /* Improved line spacing */
+}
+
+header, nav, main, footer {
+	margin: 20px 0;
+	border-bottom: 1px dashed rgba(0, 255, 127, 0.5); /* Muted green */
+	padding-bottom: 10px;
+}
+
+header, nav {
+	text-align: center;
+}
+
+.ascii {
+	color: rgba(0, 255, 127, 1); /* Muted green */
+	font-weight: bold;
+}
+
+.logo {
+	font: 10px/5px 'Source Code Pro', 'Courier New', monospace;
+}
+
+nav ul {
+	display: block;
+	padding: 0;
+	list-style: none; /* Remove bullet points */
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 15px; /* Increased padding for better separation */
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgba(0, 255, 127, 1); /* Muted green */
+}
+
+nav ul li a:hover {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(42, 110, 164, 1); /* Adjusted link color for better contrast */
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+pre {
+	font-family: 'Source Code Pro', 'Courier New', monospace;
+	color: rgba(0, 255, 127, 0.9); /* Muted green */
+	background-color: #0D0D0D;
+	padding: 15px;
+	border: 1px dashed rgba(0, 255, 127, 0.3); /* Muted green */
+	overflow-x: auto; /* Ensure long lines of code do not break the layout */
+}
+
+.highlighter-rouge {
+	color: rgba(0, 255, 127, 0.7); /* Muted green */
+}
+
+.highlight {
+	color: rgba(0, 255, 127, 0.9); /* Muted green */
+}
+
+.highlight {
+	border: 1px dashed rgba(0, 255, 127, 0.3); /* Muted green */
+	padding: 15px;
+	background-color: #0D0D0D;
+}
+
+img, main iframe {
+	width: 80%;
+	margin: 20px 10%;
+	border: 1px dashed rgba(0, 255, 127, 0.5); /* Muted green */
+}
+
+main header {
+	text-align: center;
+	padding-bottom: 15px;
+	border: 0;
+}
+
+footer {
+	text-align: center;
+	padding-top: 10px;
+	border-top: 1px dashed rgba(0, 255, 127, 0.5); /* Muted green */
+	margin-top: 20px;
+}
