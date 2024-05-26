@@ -26,7 +26,7 @@ Namaste, welcome to my blog **robots.txt**! I started this blog in an effort to 
 
 
 
-# $ cat contact.txt 
+# $ cat contact.txt <span class="blinking-cursor"></span>
 {:id="contact"}
 
 If you have any questions, suggestions, or just want to say hello, feel free to reach out to me! I'm always excited to connect with fellow cybersecurity enthusiasts, share knowledge, and collaborate on projects. You can contact me via the following channels:
@@ -37,7 +37,7 @@ If you have any questions, suggestions, or just want to say hello, feel free to 
 
 Whether you have feedback on my posts, want to discuss a cybersecurity topic, or need help with something, don't hesitate to get in touch. Let's make the cybersecurity community stronger together!
 
-# $ cat projects.txt
+# $ cat projects.txt <span class="blinking-cursor"></span>
 {:id="projects"}
 
 <ul>
@@ -46,7 +46,7 @@ Whether you have feedback on my posts, want to discuss a cybersecurity topic, or
 {% endfor %}
 </ul>
 
-# $ cat tools.txt
+# $ cat tools.txt <span class="blinking-cursor"></span>
 {:id="tools"}
 
 <ul>
@@ -55,7 +55,7 @@ Whether you have feedback on my posts, want to discuss a cybersecurity topic, or
 {% endfor %}
 </ul>
 
-# $ cat talks.txt
+# $ cat talks.txt <span class="blinking-cursor"></span>
 {:id="talks"}
 
 <ul>
