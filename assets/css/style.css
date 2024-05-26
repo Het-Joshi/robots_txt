@@ -18,23 +18,35 @@ body {
 	line-height: 1.6; /* Improved line spacing */
 }
 
-header, nav, main, footer {
+header {
 	margin: 20px 0;
 	border-bottom: 1px dashed rgba(0, 255, 127, 0.5); /* Muted green */
 	padding-bottom: 10px;
-}
-
-header, nav {
 	text-align: center;
 }
 
 .ascii {
 	color: rgba(0, 255, 127, 1); /* Muted green */
 	font-weight: bold;
+	font-size: 4vw; /* Responsive font size */
+	overflow: hidden; /* Prevent scroll bars */
 }
 
-.logo {
-	font: 10px/5px 'Source Code Pro', 'Courier New', monospace;
+pre {
+	font-family: 'Source Code Pro', 'Courier New', monospace;
+	color: rgba(0, 255, 127, 0.9); /* Muted green */
+	background-color: #0D0D0D;
+	padding: 15px;
+	border: 1px dashed rgba(0, 255, 127, 0.3); /* Muted green */
+	overflow-x: hidden; /* Prevent horizontal scroll bar */
+	white-space: pre-wrap; /* Allow line breaks */
+	word-wrap: break-word; /* Break long words */
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 nav ul {
@@ -65,15 +77,6 @@ a {
 
 a:hover {
 	text-decoration: underline;
-}
-
-pre {
-	font-family: 'Source Code Pro', 'Courier New', monospace;
-	color: rgba(0, 255, 127, 0.9); /* Muted green */
-	background-color: #0D0D0D;
-	padding: 15px;
-	border: 1px dashed rgba(0, 255, 127, 0.3); /* Muted green */
-	overflow-x: auto; /* Ensure long lines of code do not break the layout */
 }
 
 .highlighter-rouge {
@@ -159,5 +162,9 @@ footer {
 	header, nav, main, footer {
 		margin: 10px 0;
 		padding-bottom: 5px;
+	}
+
+	.ascii {
+		font-size: 6vw; /* Larger font size for small screens */
 	}
 }
