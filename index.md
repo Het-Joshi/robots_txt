@@ -9,17 +9,6 @@ Namaste, welcome to my blog **robots.txt**! I started this blog in an effort to 
 <br>
 **Happy hacking!**
 
-# $ cat contact.txt
-{:id="contact"}
-
-If you have any questions, suggestions, or just want to say hello, feel free to reach out to me! I'm always excited to connect with fellow cybersecurity enthusiasts, share knowledge, and collaborate on projects. You can contact me via the following channels:
-
-- **Email**: [het.matrix@gmail.com](mailto:het.matrix@gmail.com)
-- **GitHub**: [github.com/het-joshi](https://github.com/het-joshi)
-- **LinkedIn**: [Het-Joshi](https://www.linkedin.com/in/hetjoshi/)
-
-Whether you have feedback on my posts, want to discuss a cybersecurity topic, or need help with something, don't hesitate to get in touch. Let's make the cybersecurity community stronger together!
-
 # $ cat latest-posts.txt
 
 <ul>
@@ -37,20 +26,16 @@ Whether you have feedback on my posts, want to discuss a cybersecurity topic, or
 
 
 
-# $ cat team.txt
-{:id="team"}
+# $ cat contact.txt
+{:id="contact"}
 
-<ul>
-{% for member in site.categories.team reversed %}
-<li id="{{ member.title }}">{{ member.title }}
-  <ul>
-    <li>{{ member.mail }}</li>
-    <li><a href="https://github.com/{{ member.github }}">https://github.com/{{ member.github }}</a></li>
-    <li><a href="{{ member.site }}">{{ member.site }}</a></li>
-  </ul>
-</li>
-{% endfor %}
-</ul>
+If you have any questions, suggestions, or just want to say hello, feel free to reach out to me! I'm always excited to connect with fellow cybersecurity enthusiasts, share knowledge, and collaborate on projects. You can contact me via the following channels:
+
+- **Email**: [het.matrix@gmail.com](mailto:het.matrix@gmail.com)
+- **GitHub**: [github.com/het-joshi](https://github.com/het-joshi)
+- **LinkedIn**: [Het-Joshi](https://www.linkedin.com/in/hetjoshi/)
+
+Whether you have feedback on my posts, want to discuss a cybersecurity topic, or need help with something, don't hesitate to get in touch. Let's make the cybersecurity community stronger together!
 
 # $ cat projects.txt
 {:id="projects"}
@@ -76,14 +61,5 @@ Whether you have feedback on my posts, want to discuss a cybersecurity topic, or
 <ul>
 {% for talk in site.categories.talks %}
 <li><a href="{{ talk.link }}" title="{{ talk.description }}">{{ talk.title }}</a> at {{ talk.where }}</li>
-{% endfor %}
-</ul>
-
-# $ cat articles.txt
-{:id="articles"}
-
-<ul>
-{% for post in site.categories.articles %}
-  <li>{{ post.title }} :: <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.description }}">en</a></li>
 {% endfor %}
 </ul>
