@@ -2,14 +2,14 @@
 layout: default
 ---
 
-# $ cat about.txt
+# $ cat about.txt <span class="blinking-cursor"></span>
 {:id="about"}
 
 Namaste, welcome to my blog **robots.txt**! I started this blog in an effort to document my cybersecurity projects and all the things I learn in this field. Whether you're a newbie just dipping your toes into the vast ocean of cybersecurity or a seasoned pro looking to sharpen your skills, this blog is for you. My goal is to share knowledge, tips, and tricks that will be useful to everyone, from beginners to experts. So, grab a cup of coffee (or tea, if that's your thing), get comfy, and let's explore the fascinating world of cybersecurity together.
 <br>
 **Happy hacking!**
 
-# $ cat latest-posts.txt
+# $ cat latest-posts.txt <span class="blinking-cursor"></span>
 
 <ul>
 {% for post in site.categories.posts limit:4 %}
@@ -26,7 +26,7 @@ Namaste, welcome to my blog **robots.txt**! I started this blog in an effort to 
 
 
 
-# $ cat contact.txt
+# $ cat contact.txt 
 {:id="contact"}
 
 If you have any questions, suggestions, or just want to say hello, feel free to reach out to me! I'm always excited to connect with fellow cybersecurity enthusiasts, share knowledge, and collaborate on projects. You can contact me via the following channels:
