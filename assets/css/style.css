@@ -161,3 +161,21 @@ footer {
 		padding-bottom: 5px;
 	}
 }
+
+#search {
+  padding: 10px; /* Add padding for spacing */
+  margin-bottom: 20px; /* Add margin for separation from other elements */
+  width: 100%; /* Make the search box fill the width of its container */
+  border: 1px solid rgba(0, 255, 127, 0.5); /* Add border with muted green color */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background color */
+  color: rgba(255, 255, 255, 0.9); /* Light text color */
+  font-size: 16px; /* Adjust font size */
+  font-family: 'Source Code Pro', 'Courier New', monospace; /* Use monospace font */
+}
+
+#search:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: rgba(0, 255, 127, 0.7); /* Change border color on focus */
+}
+
