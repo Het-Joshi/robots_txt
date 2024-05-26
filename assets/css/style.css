@@ -187,9 +187,7 @@ footer {
     animation: blink 2s infinite alternate; /* Adjust blink animation duration and direction */
     margin-left: 0.1em; /* Adjust spacing between cursor and text */
 }
-
 @keyframes blink {
     0%, 100% { opacity: 1; } /* Cursor visible */
     50% { opacity: 0; } /* Cursor invisible */
 }
-
