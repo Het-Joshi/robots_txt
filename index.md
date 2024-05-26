@@ -14,6 +14,19 @@ Namaste, welcome to my blog **robots.txt**! I started this blog in an effort to 
 
 I think that all about this theme is intuitive, but if you want help, please, contact me: [gjuniioor](https://github.com/gjuniioor).
 
+
+
+# $ cat posts.txt
+{:id="posts"}
+
+<ul>
+{% for post in site.categories.posts %}
+  <li>{{ post.title }} :: <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.description }}">en</a></li>
+{% endfor %}
+</ul>
+
+
+
 # $ cat team.txt
 {:id="team"}
 
@@ -53,15 +66,6 @@ I think that all about this theme is intuitive, but if you want help, please, co
 <ul>
 {% for talk in site.categories.talks %}
 <li><a href="{{ talk.link }}" title="{{ talk.description }}">{{ talk.title }}</a> at {{ talk.where }}</li>
-{% endfor %}
-</ul>
-
-# $ cat posts.txt
-{:id="posts"}
-
-<ul>
-{% for post in site.categories.posts %}
-  <li>{{ post.title }} :: <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.description }}">en</a></li>
 {% endfor %}
 </ul>
 
