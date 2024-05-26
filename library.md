@@ -7,7 +7,7 @@ permalink: /library/
 # Library
 
 <ul>
-{% for post in site.categories.posts offset:4 %}
+{% for post in site.categories.posts %}
   <li>
     <h2>{{ post.title }}</h2>
     <p>{{ post.description }}</p>
