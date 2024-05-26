@@ -165,7 +165,7 @@ footer {
 #search {
   padding: 10px; /* Add padding for spacing */
   margin-bottom: 20px; /* Add margin for separation from other elements */
-  width: 100%; /* Make the search box fill the width of its container */
+  width: 90%; /* Make the search box fill the width of its container */
   border: 1px solid rgba(0, 255, 127, 0.5); /* Add border with muted green color */
   border-radius: 5px; /* Add border radius for rounded corners */
   background-color: rgba(0, 0, 0, 0.8); /* Dark background color */
