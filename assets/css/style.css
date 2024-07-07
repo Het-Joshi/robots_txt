@@ -191,3 +191,27 @@ footer {
     0%, 100% { opacity: 1; } /* Cursor visible */
     50% { opacity: 0; } /* Cursor invisible */
 }
+
+        .ascii {
+            white-space: pre-wrap; /* Preserve whitespace and line breaks */
+            display: block;
+            margin: 0 auto;
+            font-size: 16px; /* Default font size */
+        }
+        .name {
+            font-size: 1em; /* Adjust based on viewport width */
+        }
+        @media (max-width: 768px) {
+            .name {
+                font-size: 0.75em; /* Smaller font size for tablets and large phones */
+            }
+        }
+        @media (max-width: 480px) {
+            .name {
+                font-size: 0.5em; /* Even smaller font size for small phones */
+            }
+        }
+        .center {
+            margin-top: 20px;
+            font-size: 1em;
+        }
