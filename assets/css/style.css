@@ -191,11 +191,6 @@ footer {
     0%, 100% { opacity: 1; } /* Cursor visible */
     50% { opacity: 0; } /* Cursor invisible */
 }
-
-body {
-            text-align: center;
-            overflow-x: hidden; /* Prevent horizontal scroll */
-        }
         .ascii {
             white-space: pre-wrap; /* Preserve whitespace and line breaks */
             display: block;
