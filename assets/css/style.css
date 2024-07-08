@@ -196,21 +196,18 @@ footer {
             display: block;
             margin: 0 auto;
             font-size: 16px; /* Default font size */
-            width: 100%;
-            box-sizing: border-box;
         }
         .name {
-            transform: scale(1);
-            transform-origin: top left;
+            font-size: 1em; /* Adjust based on viewport width */
         }
         @media (max-width: 768px) {
             .name {
-                transform: scale(0.75); /* Smaller scale for tablets and large phones */
+                font-size: 0.75em; /* Smaller font size for tablets and large phones */
             }
         }
         @media (max-width: 480px) {
             .name {
-                transform: scale(0.5); /* Even smaller scale for small phones */
+                font-size: 0.5em; /* Even smaller font size for small phones */
             }
         }
         .center {
