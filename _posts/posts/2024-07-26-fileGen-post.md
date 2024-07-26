@@ -7,6 +7,7 @@ layout: post
 date: 2024-07-26
 comments: true
 en: "/robots_txt/projects/fileGen/"
+excerpt: Why do you even need to make a program that generates dummy files of a particular size? What did I learn from this?
 authors:
   - Het Joshi
 ---
