@@ -11,6 +11,14 @@ keywords: "Hacking, Blog, Cyber, Security, Cybersecurity, Hacker"
 authors:
   - Het Joshi
 ---
+## Table of Contents
+
+* toc
+{:toc}
+
+
+---
+
 
 The term **"hacker"** has undergone a dramatic makeover, much like the classic villain turning into an antihero in the latest blockbuster. What once symbolized innovation and creativity has now often become synonymous with criminality and sinister intentions. This shift mirrors society's evolving relationship with technology and the occasional headline-grabbing cybercrime that has shaped the public's understanding of tech enthusiasts.
 
