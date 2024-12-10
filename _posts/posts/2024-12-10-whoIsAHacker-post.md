@@ -1,8 +1,8 @@
 ---
-title: What does it truly mean to be a Hacker?
-description: How the term 'hacker' has undergone a drastic change over the years and why I still identify myself with its true meaning
 categories: posts
 layout: post
+title: What does it truly mean to be a Hacker?
+description: How the term 'hacker' has undergone a drastic change over the years and why I still identify myself with its true meaning
 date: 2024-12-11
 en: "/robots_txt/posts/whoIsAHacker/"
 comments: true
