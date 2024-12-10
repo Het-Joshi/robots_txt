@@ -3,8 +3,8 @@ categories: posts
 layout: post
 title: What does it truly mean to be a Hacker?
 description: How the term 'hacker' has undergone a drastic change over the years and why I still identify myself with its true meaning
-date: 2024-12-11
-en: "/robots_txt/posts/whoIsAHacker/"
+date: 2024-12-10
+en: "/robots_txt/posts/Hacker-post/"
 comments: true
 excerpt: Who even is a hacker? A bad guy? A tinkerer? A nerdy dude in his basement with a computer?
 keywords: "Hacking, Blog, Cyber, Security, Cybersecurity, Hacker"
