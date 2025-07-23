@@ -214,3 +214,63 @@ footer {
             margin-top: 20px;
             font-size: 1em;
         }
+
+#terminal {
+  background-color: #0D0D0D;
+  border: 1px dashed rgba(0, 255, 127, 0.5);
+  border-radius: 5px;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+#terminal-header {
+  background-color: #333;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.red { background-color: #ff5f56; }
+.yellow { background-color: #ffbd2e; }
+.green { background-color: #27c93f; }
+
+#terminal-body {
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+#terminal-prompt {
+    display: flex;
+    align-items: center;
+}
+
+.prompt-user {
+  color: #50fa7b; /* A different shade of green for the user */
+}
+
+.prompt-symbol {
+  color: #bd93f9; /* A vibrant purple for the prompt symbol */
+}
+
+#terminal-input {
+  background-color: transparent;
+  border: none;
+  color: #f8f8f2;
+  font-family: 'Source Code Pro', 'Courier New', monospace;
+  font-size: 1em;
+  width: 100%;
+}
+
+#terminal-input:focus {
+  outline: none;
+}
