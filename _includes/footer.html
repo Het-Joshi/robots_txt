@@ -1,5 +1,10 @@
-<footer>
-{% if page.comments %}
-	{% include disqus.html %}
-{% endif %}
+<footer class="site">
+	<div class="wrap footrow">
+		<span>&copy; {{ 'now' | date: "%Y" }} Het Joshi &middot; compiled at 1:32 a.m.</span>
+		<span class="feeds">
+			built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>
+			<a href="{{ site.baseurl }}/rss.xml">RSS</a>
+			<a href="{{ site.baseurl }}/atom.xml">Atom</a>
+		</span>
+	</div>
 </footer>

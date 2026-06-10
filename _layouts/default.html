@@ -1,40 +1,29 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
-<title>$robots.txt
-</title>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
 	{% include head.html %}
-	<body>
-		{% include header.html %}
-		{% include nav.html %}
-		<main>
-			{{ content }}
-		</main>
-		{% include footer.html %}
-	
-		<script>
-		// Konami code easter egg
-		const konamiCode = [
-		'ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown',
-		'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight',
-		'b', 'a'
-		];
-		let konamiIndex = 0;
-		document.addEventListener('keydown', (e) => {
+</head>
+<body>
+	<a class="skip" href="#main">Skip to content</a>
+
+	{% include header.html %}
+
+	<main id="main">
+		{{ content }}
+	</main>
+
+	{% include footer.html %}
+
+	<script>
+	// Konami code easter egg — flips the accent to classic phosphor green
+	const konamiCode = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+	let konamiIndex = 0;
+	document.addEventListener('keydown', (e) => {
 		if (e.key === konamiCode[konamiIndex]) {
 			konamiIndex++;
-			if (konamiIndex === konamiCode.length) {
-			alert('Konami code activated! 🎉');
-			konamiIndex = 0;
-			}
-		} else {
-			konamiIndex = 0;
-		}
-		});
-		</script>
-	</body>
-<footer>
-    <p> A blogsite by Het Joshi.</p>
-    <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> and theme is based on <a href="https://github.com/gildasio/darcli">Darcli</a></p>
-</footer>
-
+			if (konamiIndex === konamiCode.length) { document.body.classList.toggle('konami'); konamiIndex = 0; }
+		} else { konamiIndex = 0; }
+	});
+	</script>
+</body>
 </html>
